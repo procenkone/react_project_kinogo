@@ -1,0 +1,17 @@
+.starsWrap{
+    display: flex;
+
+}
+
+ button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.off {
+    color: #ccc;
+}
+.on {
+    color: #f8ce0b;
+}

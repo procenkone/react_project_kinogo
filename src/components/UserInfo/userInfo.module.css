@@ -1,0 +1,13 @@
+.user {
+    color: #c9c9c9;
+    display: flex;
+    padding-top: 3px;
+    align-items: center;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.user img {
+    height: 35px;
+    padding-right: 5px;
+}

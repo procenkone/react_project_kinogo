@@ -1,0 +1,61 @@
+.movieItem {
+    display: flex;
+    width: 587px;
+    gap: 25px;
+    margin-top: 12px;
+    margin-left: 360px;
+    height: 387px;
+    border-bottom: 1px solid #6B6B6B;
+    overflow: hidden;
+}
+
+.movieItem img {
+    height: 300px;
+}
+
+.movieItem a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.movieItem h3:hover{
+   color: red;
+}
+
+.movieItem h3 {
+    list-style-type: none;
+    font-family: Tahoma, verdana, sans-serif;
+    cursor: pointer;
+    font-size: 15px;
+    color: #e0dfdc;
+}
+
+.titleBlock {
+    height: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.starBlock{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.starBlock h4{
+    color:  #a8a8a8;
+    font-size: 15px;
+    font-family: Tahoma, verdana, sans-serif;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #a8a8a8;
+    padding-top: 35px;
+    font-family: Tahoma, verdana, sans-serif;
+}
+
+.dateReleas{
+    padding-bottom: 44px;
+}

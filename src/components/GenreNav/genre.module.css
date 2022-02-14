@@ -1,0 +1,47 @@
+.genreWrap {
+    display: flex;
+    flex-direction: column;
+    width: 136px;
+    height: 382px;
+    position: absolute;
+    left: 16px;
+    top: 57px;
+}
+
+.titleBlock {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: #f3f3f3;
+    text-shadow: 1px 1px #000;
+    font-family: Tahoma, verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+.navLinkBlock {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    line-height: 17px;
+}
+
+.links a {
+    color: #e0dfdc;
+    text-decoration: underline;
+    list-style-type: none;
+    font-family: Tahoma, verdana, sans-serif;
+    font-size: 13px;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.links a[class='active'] {
+    color: red;
+}

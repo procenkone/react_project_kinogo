@@ -1,0 +1,22 @@
+
+.buttonBlock {
+    margin-top: 31px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #7e7d7d;
+    margin-left: 304px;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.buttonBlock button {
+    text-decoration: none;
+    border: 1px solid #4d4c4c;
+    background: #242424;
+    color: #7e7d7d;
+    padding: 3px 6px;
+    font-size: 12px;
+    width: 60px;
+    cursor: pointer;
+}

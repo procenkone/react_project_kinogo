@@ -1,0 +1,40 @@
+.headerWrap{
+    width: 976px;
+    height: 43px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    background: black;
+}
+
+.logo img {
+    width: 91px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.headerWrap input{
+    width: 173px;
+    height: 22px;
+    border: 1px solid #6B6B6B;
+    -webkit-box-shadow: 0 2px 4px #666 inset;
+    box-shadow: 0 2px 4px #414141 inset;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 10px;
+    color: #B6B6B6;
+    background-color: #505050;
+}
+
+.headerWrap button{
+    text-decoration: none;
+    color: silver;
+    height: 22px;
+    background: #242424;
+    border: 1px solid #404040;
+    cursor: pointer;
+    padding: 0 7px;
+    margin-left: 15px;
+}

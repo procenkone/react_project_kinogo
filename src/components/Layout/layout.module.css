@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapLayout {
+    position: relative;
+    max-width: 972px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.moviePageWrap {
+    position: relative;
+    display: flex;
+    width: 974px;
+    padding-top: 15px;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid #848480;
+    border-radius: 10px;
+    background: #585858 url(https://kinogo.zone/templates/tmp/images/bg.png) repeat-y;
+}
+
+.navigate{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    color: #f3f3f3;
+    text-shadow: 1px 1px #000;
+    font-family: Tahoma, verdana, sans-serif;
+    border-bottom: 1px solid #848480;
+    width: 330px;
+    padding-bottom: 7px;
+}
+
+.navigate span{
+    padding-left: 15px;
+}
+
